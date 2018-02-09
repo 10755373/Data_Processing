@@ -57,7 +57,7 @@ def extract_tvseries(dom):
         genres.append(seriegenre.find("span", {"class": "genre"}).get_text(strip=True))
 
     for serieruntime in raw_data:
-        runtime.append(serieruntime.find("span", {"class": "runtime"}).get_text(strip=True))
+        runtime.append(serieruntime.find("span", {"class": "runtime"}).get_text(strip=True)[:3])
 
     # collect actors     
     for serieactors in raw_data:
