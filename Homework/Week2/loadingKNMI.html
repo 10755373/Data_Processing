@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>KNMI De Bilt</title>
+	</head>
+	<body>
+		<textarea id="rawdata">
+
+		</textarea>
+		<canvas id="myCanvas">
+		</canvas>
+		<script>
+    // initialize request	
+      var xhttp = new XMLHttpRequest();
+
+      // open file
+      xhttp.open("get", "KNMI.csv", true);
+
+      // state changes when 'open' function is called
+      xhttp.onreadystatechange = function() {
+        if (xhttp.readyState == 4 && xhttp.status == 200) {
+          function hidetextarea(){
+            document.getElementById("rawdata").style.display = "none";
+          }
+          hidetextarea();
+          document.getElementById("rawdata").innerHTML = xhttp.responseText;
+          var rawdata = document.getElementById("rawdata").innerHTML;
+      
+          // get rid of the header
+          rawdata = rawdata.split('\n').slice(12, );
+    			rawdate = [];
+    			rawtemp = [];
+
+          // clean up the weather data
+          // divide it in a date and temp array
+    			for (var i = 0; i < rawdata.length; i++) {
+            
+            rawdata[i] = rawdata[i].slice(6);
+    				rawdata[i] = rawdata[i].replace(/\s/g, '');
+    				rawnew = [];
+    				rawnew.push(rawdata[i].split(','));
+    				year = rawnew[0][0].slice(0,4);
+    				month = rawnew[0][0].slice(4,6);
+    				day = rawnew[0][0].slice(6,8);
+
+            // get rid of 0's
+    				if (month.match('0') && month.slice(0, 1) == "0") {
+    					month = month.replace('0', '');
+    				}
+    				if (day.match('0') && day.slice(0,1) == "0") {
+    					day = day.replace('0', '');
+    				}
+
+            // convert data into JS dates
+    				var date = new Date(year, parseInt(month) - 1, parseInt(day) + 1);
+    				rawdate.push(date);
+    				rawtemp.push(rawnew[0][1]);
+    			};
+    			
+    			// converting date into int and then day number (1-366)
+    			for (var j = 0; j < rawdate.length; j++) {
+    				rawdate[j] = rawdate[j].getTime(); 
+    				rawdate[j] = parseInt(rawdate[j]);
+    				rawdate[j] = Math.round((rawdate[j] / 86400000) - 16801);
+    			};
+
+          // adjust interval of the temps
+          for (var k = 0; k < rawtemp.length; k++) {
+            rawtemp[k] = parseInt(rawtemp[k]);
+            rawtemp[k] = rawtemp[k] + 50;
+          };
+
+          // draw the needed texts
+          var canvas = document.getElementById("myCanvas");
+    			var context = canvas.getContext("2d");
+    			context.font = "10px Arial";
+          context.fillText("Daytime Temperature in De Bilt", 50, 15);  
+
+          context.font = "7px Arial";
+          context.fillText("2016", 1, 149);
+
+          // draw graphic's lines
+          context.beginPath();
+    			context.moveTo(20,20);
+          context.lineTo(20,140);
+          context.lineTo(200,140);
+          context.stroke();
+
+          // scale x-axis
+         	domainarray_x = [1,366];
+    			rangearray_x = [20,200];
+
+          // scale y-axis
+          domainarray_y = [0,350];
+          rangearray_y = [140,20];
+          
+    			function createTransform(domain, range){
+    			// domain is a two-element array of the data bounds [domain_min, domain_max]
+    			// range is a two-element array of the screen bounds [range_min, range_max]
+    			// this gives you two equations to solve:
+    			// range_min = alpha * domain_min + beta
+    			// range_max = alpha * domain_max + beta
+     			// a solution would be:
+
+    			    var domain_min = domain[0];
+    			    var domain_max = domain[1];
+    			    var range_min = range[0];
+    			    var range_max = range[1];
+
+    			    // formulas to calculate the alpha and the beta
+    			   	var alpha = (range_max - range_min) / (domain_max - domain_min);
+    			    var beta = range_max - alpha * domain_max;
+
+    			    // returns the function for the linear transformation (y= a * x + b)
+    			    return function(x){
+    			      return alpha * x + beta;
+    			    }
+    			}
+          
+          // save the 'scale formula' for both axes
+          transformator_x = createTransform(domainarray_x, rangearray_x);
+          transformator_y = createTransform(domainarray_y, rangearray_y);
+
+          // draw graphic
+          context.beginPath();
+          context.moveTo(transformator_x(rawdate[0]), transformator_y(rawtemp[0]));
+          for (var l = 1; l < rawtemp.length; l++) {
+            context.lineTo(transformator_x(rawdate[l]), transformator_y(rawtemp[l]));
+          };
+          context.stroke();
+
+          // draw tempurates indicators
+          temp_graph = 30;
+          for (var vert = 21; vert <= 140; vert = vert + 17,14) {
+            context.beginPath();
+            context.moveTo(20,vert);
+            context.lineTo(15,vert);
+            context.stroke();
+            context.font = "5px Arial";
+            context.fillText(temp_graph + " C", 4, vert + 1);  
+            temp_graph = temp_graph - 5;
+          };
+
+          // draw month indicators
+          var months = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sep", "Oct", "Nov", "Dec"];
+          month_number = 0;
+          for (var hori = 20; hori <= 200; hori = hori + 15) {
+            context.beginPath();
+            context.moveTo(hori,140);
+            context.lineTo(hori,145);
+            context.stroke();
+            if (month_number < 12) {
+              context.font = "5px Arial";
+              context.fillText(months[month_number], hori + 2.5, 148);
+              month_number++;
+            }        
+          };
+      };      
+     }; 
+
+    xhttp.send();
+		</script>		
+		</body>
+</html> 
