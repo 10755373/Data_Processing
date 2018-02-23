@@ -64,7 +64,10 @@ function load() {
 				.on("mousemove", function(d, i) { 
 				var this_bar = d3.select(this)
 						.style("fill", "green");
+		
 			// HOW DO YOU ADD THE VALUE NUMBER IN TEXT???
+			// why does the text element not take any x value?
+			// instead it returns an empty text element
 			//canvas.enter().append("text")
 				//.attr("id", "t" + d.date + "-" + d.temp + "-" + i) 
 				//.attr("x", parseInt(function() { return d3.this.attr("#x");}))
@@ -74,7 +77,7 @@ function load() {
             	.on("mouseout", function(d, i) {
            		var this_bar = d3.select(this)
            			.style("fill", "steelblue");
-			// HOW??
+			// HOW?
            		//d3.select("#t" + d.date + "-" + d.temp + "-" + i).remove();
            	});
        
