@@ -1,10 +1,13 @@
+# Enrikos Iossifidis
+
 import csv
 import json
 
+# open csv en json file
 csv_file = open("KNMI_20151231_maandelijks.csv", 'r')
 json_file = open("convertCSV2JSON.json", 'w')
-print(csv_file)
 
+# read and write csv file in json file
 data = []
 csv_reader = csv.reader(csv_file)
 for row in csv_reader:
@@ -13,5 +16,4 @@ for row in csv_reader:
 
 json.dump(data, json_file, indent = 4)
 
-# jsonfile.write(json_output)
 
