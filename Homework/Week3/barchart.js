@@ -1,3 +1,5 @@
+// Enrikos Iossifidis
+
 function load() {
  	// get local file
 	d3.json("convertCSV2JSON.json", function(data) {
