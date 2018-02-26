@@ -3,7 +3,7 @@
 function load() {
  	// get local file
 	d3.json("convertCSV2JSON.json", function(data) {
-        
+        console.log(data);
 	// set margins w/ d3
         var margin = {top: 15, right: 30, bottom: 30, left: 35},
 		width = 960 - margin.left - margin.right,
