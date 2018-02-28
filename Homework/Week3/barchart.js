@@ -26,8 +26,9 @@ function load() {
 	var x = d3.scale.ordinal()
 		.rangeRoundBands([0, width], 0.4);
 
+	console.log(data.map(function(d) { return d.date; }));
 	x.domain(data.map(function(d) { return d.date; }));
-
+		
 	var y = d3.scale.linear()
 		.range([height, 0]);
 			
