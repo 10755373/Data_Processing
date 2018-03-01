@@ -1,0 +1,128 @@
+[
+    {
+        "Jaar": "1990",
+        "Energiesector": "52860",
+        "Nijverheid": "40950",
+        "Particulier": "22340",
+        "Onderwerp": "CO2"
+    },
+    {
+        "Jaar": "2000",
+        "Energiesector": "63280",
+        "Nijverheid": "34280",
+        "Particulier": "22310",
+        "Onderwerp": "CO2"
+    },
+    {
+        "Jaar": "2010",
+        "Energiesector": "68310",
+        "Nijverheid": "35380",
+        "Particulier": "25340",
+        "Onderwerp": "CO2"
+    },
+    {
+        "Jaar": "2014",
+        "Energiesector": "63100",
+        "Nijverheid": "31770",
+        "Particulier": "17510",
+        "Onderwerp": "CO2"
+    },
+    {
+        "Jaar": "2015",
+        "Energiesector": "67320",
+        "Nijverheid": "32610",
+        "Particulier": "18600",
+        "Onderwerp": "CO2"
+    },
+    {
+        "Jaar": "2016",
+        "Energiesector": "66670",
+        "Nijverheid": "34170",
+        "Particulier": "19300",
+        "Onderwerp": "CO2"
+    },
+    {
+        "Jaar": "1990",
+        "Energiesector": "112,8",
+        "Nijverheid": "51,4",
+        "Particulier": "1,1",
+        "Onderwerp": "SO2"
+    },
+    {
+        "Jaar": "2000",
+        "Energiesector": "48,3",
+        "Nijverheid": "13,9",
+        "Particulier": "0,5",
+        "Onderwerp": "SO2"
+    },
+    {
+        "Jaar": "2010",
+        "Energiesector": "19,4",
+        "Nijverheid": "12,2",
+        "Particulier": "0,4",
+        "Onderwerp": "SO2"
+    },
+    {
+        "Jaar": "2014",
+        "Energiesector": "18,3",
+        "Nijverheid": "9,5",
+        "Particulier": "0,4",
+        "Onderwerp": "SO2"
+    },
+    {
+        "Jaar": "2015",
+        "Energiesector": "19,7",
+        "Nijverheid": "9,2",
+        "Particulier": "0,4",
+        "Onderwerp": "SO2"
+    },
+    {
+        "Jaar": "2016",
+        "Energiesector": "17,2",
+        "Nijverheid": "8,7",
+        "Particulier": "0,4",
+        "Onderwerp": "SO2"
+    },
+    {
+        "Jaar": "1990",
+        "Energiesector": "103,9",
+        "Nijverheid": "79",
+        "Particulier": "20,5",
+        "Onderwerp": "NOx"
+    },
+    {
+        "Jaar": "2000",
+        "Energiesector": "66",
+        "Nijverheid": "34,9",
+        "Particulier": "19,7",
+        "Onderwerp": "NOx"
+    },
+    {
+        "Jaar": "2010",
+        "Energiesector": "32,8",
+        "Nijverheid": "30,2",
+        "Particulier": "13,9",
+        "Onderwerp": "NOx"
+    },
+    {
+        "Jaar": "2014",
+        "Energiesector": "26,8",
+        "Nijverheid": "24,9",
+        "Particulier": "8,3",
+        "Onderwerp": "NOx"
+    },
+    {
+        "Jaar": "2015",
+        "Energiesector": "27,5",
+        "Nijverheid": "24,8",
+        "Particulier": "8,2",
+        "Onderwerp": "NOx"
+    },
+    {
+        "Jaar": "2016",
+        "Energiesector": "24,6",
+        "Nijverheid": "25,2",
+        "Particulier": "7,9",
+        "Onderwerp": "NOx"
+    }
+]
