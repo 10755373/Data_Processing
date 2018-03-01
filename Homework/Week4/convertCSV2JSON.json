@@ -1,0 +1,982 @@
+[
+    {
+        "Country": "Costa Rica",
+        "Region": "Americas",
+        "Life": "79.1",
+        "HPI": "44.7",
+        "Wellbeing": "7.3"
+    },
+    {
+        "Country": "Mexico",
+        "Region": "Americas",
+        "Life": "76.4",
+        "HPI": "40.7",
+        "Wellbeing": "7.3"
+    },
+    {
+        "Country": "Colombia",
+        "Region": "Americas",
+        "Life": "73.7",
+        "HPI": "40.7",
+        "Wellbeing": "6.4"
+    },
+    {
+        "Country": "Vanuatu",
+        "Region": "Asia Pacific",
+        "Life": "71.3",
+        "HPI": "40.6",
+        "Wellbeing": "6.5"
+    },
+    {
+        "Country": "Vietnam",
+        "Region": "Asia Pacific",
+        "Life": "75.5",
+        "HPI": "40.3",
+        "Wellbeing": "5.5"
+    },
+    {
+        "Country": "Panama",
+        "Region": "Americas",
+        "Life": "77.2",
+        "HPI": "39.5",
+        "Wellbeing": "6.9"
+    },
+    {
+        "Country": "Nicaragua",
+        "Region": "Americas",
+        "Life": "74.3",
+        "HPI": "38.7",
+        "Wellbeing": "5.4"
+    },
+    {
+        "Country": "Bangladesh",
+        "Region": "Asia Pacific",
+        "Life": "70.8",
+        "HPI": "38.4",
+        "Wellbeing": "4.7"
+    },
+    {
+        "Country": "Thailand",
+        "Region": "Asia Pacific",
+        "Life": "74.1",
+        "HPI": "37.3",
+        "Wellbeing": "6.3"
+    },
+    {
+        "Country": "Ecuador",
+        "Region": "Americas",
+        "Life": "75.4",
+        "HPI": "37",
+        "Wellbeing": "6"
+    },
+    {
+        "Country": "Jamaica",
+        "Region": "Americas",
+        "Life": "75.3",
+        "HPI": "36.9",
+        "Wellbeing": "5.6"
+    },
+    {
+        "Country": "Norway",
+        "Region": "Europe",
+        "Life": "81.3",
+        "HPI": "36.8",
+        "Wellbeing": "7.7"
+    },
+    {
+        "Country": "Albania",
+        "Region": "Post-communist",
+        "Life": "77.3",
+        "HPI": "36.8",
+        "Wellbeing": "5.5"
+    },
+    {
+        "Country": "Uruguay",
+        "Region": "Americas",
+        "Life": "76.9",
+        "HPI": "36.1",
+        "Wellbeing": "6.4"
+    },
+    {
+        "Country": "Spain",
+        "Region": "Europe",
+        "Life": "82.2",
+        "HPI": "36",
+        "Wellbeing": "6.3"
+    },
+    {
+        "Country": "Indonesia",
+        "Region": "Asia Pacific",
+        "Life": "68.5",
+        "HPI": "35.7",
+        "Wellbeing": "5.4"
+    },
+    {
+        "Country": "El Salvador",
+        "Region": "Americas",
+        "Life": "72.5",
+        "HPI": "35.6",
+        "Wellbeing": "5.9"
+    },
+    {
+        "Country": "Netherlands",
+        "Region": "Europe",
+        "Life": "81.2",
+        "HPI": "35.3",
+        "Wellbeing": "7.5"
+    },
+    {
+        "Country": "Argentina",
+        "Region": "Americas",
+        "Life": "75.9",
+        "HPI": "35.2",
+        "Wellbeing": "6.5"
+    },
+    {
+        "Country": "Philippines",
+        "Region": "Asia Pacific",
+        "Life": "67.9",
+        "HPI": "35",
+        "Wellbeing": "5"
+    },
+    {
+        "Country": "Peru",
+        "Region": "Americas",
+        "Life": "74.1",
+        "HPI": "34.6",
+        "Wellbeing": "5.8"
+    },
+    {
+        "Country": "Palestine",
+        "Region": "Middle East and North Africa",
+        "Life": "72.6",
+        "HPI": "34.5",
+        "Wellbeing": "4.6"
+    },
+    {
+        "Country": "Brazil",
+        "Region": "Americas",
+        "Life": "73.9",
+        "HPI": "34.3",
+        "Wellbeing": "6.9"
+    },
+    {
+        "Country": "Switzerland",
+        "Region": "Europe",
+        "Life": "82.6",
+        "HPI": "34.3",
+        "Wellbeing": "7.8"
+    },
+    {
+        "Country": "Tajikistan",
+        "Region": "Post-communist",
+        "Life": "69",
+        "HPI": "34.2",
+        "Wellbeing": "4.5"
+    },
+    {
+        "Country": "Guatemala",
+        "Region": "Americas",
+        "Life": "71.4",
+        "HPI": "34.2",
+        "Wellbeing": "5.9"
+    },
+    {
+        "Country": "Belize",
+        "Region": "Americas",
+        "Life": "69.8",
+        "HPI": "33.8",
+        "Wellbeing": "6.1"
+    },
+    {
+        "Country": "Sri Lanka",
+        "Region": "Asia Pacific",
+        "Life": "74.6",
+        "HPI": "33.8",
+        "Wellbeing": "4.2"
+    },
+    {
+        "Country": "Venezuela",
+        "Region": "Americas",
+        "Life": "73.9",
+        "HPI": "33.6",
+        "Wellbeing": "7.1"
+    },
+    {
+        "Country": "Algeria",
+        "Region": "Middle East and North Africa",
+        "Life": "74.3",
+        "HPI": "33.3",
+        "Wellbeing": "5.6"
+    },
+    {
+        "Country": "Kyrgyzstan",
+        "Region": "Post-communist",
+        "Life": "69.7",
+        "HPI": "33.1",
+        "Wellbeing": "5.2"
+    },
+    {
+        "Country": "Denmark",
+        "Region": "Europe",
+        "Life": "79.8",
+        "HPI": "32.7",
+        "Wellbeing": "7.5"
+    },
+    {
+        "Country": "Morocco",
+        "Region": "Middle East and North Africa",
+        "Life": "73.4",
+        "HPI": "32.7",
+        "Wellbeing": "5"
+    },
+    {
+        "Country": "United Kingdom",
+        "Region": "Europe",
+        "Life": "80.4",
+        "HPI": "31.9",
+        "Wellbeing": "6.9"
+    },
+    {
+        "Country": "Chile",
+        "Region": "Americas",
+        "Life": "81.1",
+        "HPI": "31.7",
+        "Wellbeing": "6.6"
+    },
+    {
+        "Country": "Pakistan",
+        "Region": "Asia Pacific",
+        "Life": "65.7",
+        "HPI": "31.5",
+        "Wellbeing": "5.1"
+    },
+    {
+        "Country": "Finland",
+        "Region": "Europe",
+        "Life": "80.4",
+        "HPI": "31.3",
+        "Wellbeing": "7.4"
+    },
+    {
+        "Country": "New Zealand",
+        "Region": "Asia Pacific",
+        "Life": "81.4",
+        "HPI": "31.3",
+        "Wellbeing": "7.2"
+    },
+    {
+        "Country": "Iceland",
+        "Region": "Europe",
+        "Life": "82.2",
+        "HPI": "31.1",
+        "Wellbeing": "7.6"
+    },
+    {
+        "Country": "Georgia",
+        "Region": "Post-communist",
+        "Life": "74.6",
+        "HPI": "31.1",
+        "Wellbeing": "4.3"
+    },
+    {
+        "Country": "Cyprus",
+        "Region": "Europe",
+        "Life": "79.8",
+        "HPI": "30.7",
+        "Wellbeing": "6.2"
+    },
+    {
+        "Country": "Nepal",
+        "Region": "Asia Pacific",
+        "Life": "68.8",
+        "HPI": "30.5",
+        "Wellbeing": "4.2"
+    },
+    {
+        "Country": "Austria",
+        "Region": "Europe",
+        "Life": "81",
+        "HPI": "30.5",
+        "Wellbeing": "7.4"
+    },
+    {
+        "Country": "France",
+        "Region": "Europe",
+        "Life": "81.8",
+        "HPI": "30.4",
+        "Wellbeing": "6.6"
+    },
+    {
+        "Country": "Dominican Republic",
+        "Region": "Americas",
+        "Life": "73.1",
+        "HPI": "30.3",
+        "Wellbeing": "4.8"
+    },
+    {
+        "Country": "Malaysia",
+        "Region": "Asia Pacific",
+        "Life": "74.4",
+        "HPI": "30.3",
+        "Wellbeing": "5.9"
+    },
+    {
+        "Country": "Croatia",
+        "Region": "Post-communist",
+        "Life": "77",
+        "HPI": "30.2",
+        "Wellbeing": "6"
+    },
+    {
+        "Country": "Ireland",
+        "Region": "Europe",
+        "Life": "80.5",
+        "HPI": "30",
+        "Wellbeing": "7"
+    },
+    {
+        "Country": "Germany",
+        "Region": "Europe",
+        "Life": "80.6",
+        "HPI": "29.8",
+        "Wellbeing": "6.7"
+    },
+    {
+        "Country": "India",
+        "Region": "Asia Pacific",
+        "Life": "67.3",
+        "HPI": "29.2",
+        "Wellbeing": "4.6"
+    },
+    {
+        "Country": "Uzbekistan",
+        "Region": "Post-communist",
+        "Life": "68.2",
+        "HPI": "29.1",
+        "Wellbeing": "6"
+    },
+    {
+        "Country": "Serbia",
+        "Region": "Post-communist",
+        "Life": "74.5",
+        "HPI": "29",
+        "Wellbeing": "5.2"
+    },
+    {
+        "Country": "Malta",
+        "Region": "Europe",
+        "Life": "80.2",
+        "HPI": "29",
+        "Wellbeing": "6"
+    },
+    {
+        "Country": "Israel",
+        "Region": "Middle East and North Africa",
+        "Life": "81.9",
+        "HPI": "28.8",
+        "Wellbeing": "7.1"
+    },
+    {
+        "Country": "Romania",
+        "Region": "Post-communist",
+        "Life": "74.3",
+        "HPI": "28.8",
+        "Wellbeing": "5.2"
+    },
+    {
+        "Country": "Bhutan",
+        "Region": "Asia Pacific",
+        "Life": "68.7",
+        "HPI": "28.6",
+        "Wellbeing": "5.6"
+    },
+    {
+        "Country": "Haiti",
+        "Region": "Americas",
+        "Life": "62.1",
+        "HPI": "28.6",
+        "Wellbeing": "4.4"
+    },
+    {
+        "Country": "Japan",
+        "Region": "Asia Pacific",
+        "Life": "83.2",
+        "HPI": "28.3",
+        "Wellbeing": "6"
+    },
+    {
+        "Country": "Slovakia",
+        "Region": "Post-communist",
+        "Life": "75.9",
+        "HPI": "28.2",
+        "Wellbeing": "5.9"
+    },
+    {
+        "Country": "Italy",
+        "Region": "Europe",
+        "Life": "82.7",
+        "HPI": "28.1",
+        "Wellbeing": "5.8"
+    },
+    {
+        "Country": "Sweden",
+        "Region": "Europe",
+        "Life": "81.8",
+        "HPI": "28",
+        "Wellbeing": "7.6"
+    },
+    {
+        "Country": "Poland",
+        "Region": "Post-communist",
+        "Life": "76.9",
+        "HPI": "27.5",
+        "Wellbeing": "5.9"
+    },
+    {
+        "Country": "Mauritius",
+        "Region": "Sub Saharan Africa",
+        "Life": "74",
+        "HPI": "27.4",
+        "Wellbeing": "5.5"
+    },
+    {
+        "Country": "Czech Republic",
+        "Region": "Post-communist",
+        "Life": "78.2",
+        "HPI": "27.3",
+        "Wellbeing": "6.3"
+    },
+    {
+        "Country": "Honduras",
+        "Region": "Americas",
+        "Life": "72.8",
+        "HPI": "27.2",
+        "Wellbeing": "4.6"
+    },
+    {
+        "Country": "Ethiopia",
+        "Region": "Sub Saharan Africa",
+        "Life": "62.8",
+        "HPI": "26.7",
+        "Wellbeing": "4.6"
+    },
+    {
+        "Country": "Iraq",
+        "Region": "Middle East and North Africa",
+        "Life": "69",
+        "HPI": "26.5",
+        "Wellbeing": "4.7"
+    },
+    {
+        "Country": "Turkey",
+        "Region": "Middle East and North Africa",
+        "Life": "74.7",
+        "HPI": "26.4",
+        "Wellbeing": "5.3"
+    },
+    {
+        "Country": "Hungary",
+        "Region": "Post-communist",
+        "Life": "74.9",
+        "HPI": "26.4",
+        "Wellbeing": "4.7"
+    },
+    {
+        "Country": "Ukraine",
+        "Region": "Post-communist",
+        "Life": "70.3",
+        "HPI": "26.4",
+        "Wellbeing": "5"
+    },
+    {
+        "Country": "Tunisia",
+        "Region": "Middle East and North Africa",
+        "Life": "74.6",
+        "HPI": "26.2",
+        "Wellbeing": "4.5"
+    },
+    {
+        "Country": "China",
+        "Region": "Asia Pacific",
+        "Life": "75.4",
+        "HPI": "25.7",
+        "Wellbeing": "5.1"
+    },
+    {
+        "Country": "Armenia",
+        "Region": "Post-communist",
+        "Life": "74.4",
+        "HPI": "25.7",
+        "Wellbeing": "4.3"
+    },
+    {
+        "Country": "Cambodia",
+        "Region": "Asia Pacific",
+        "Life": "67.5",
+        "HPI": "25.6",
+        "Wellbeing": "3.9"
+    },
+    {
+        "Country": "Suriname",
+        "Region": "Americas",
+        "Life": "70.8",
+        "HPI": "25.4",
+        "Wellbeing": "6.3"
+    },
+    {
+        "Country": "Bosnia and Herzegovina",
+        "Region": "Post-communist",
+        "Life": "76.2",
+        "HPI": "25.3",
+        "Wellbeing": "4.8"
+    },
+    {
+        "Country": "Zambia",
+        "Region": "Sub Saharan Africa",
+        "Life": "58.4",
+        "HPI": "25.2",
+        "Wellbeing": "5"
+    },
+    {
+        "Country": "Montenegro",
+        "Region": "Post-communist",
+        "Life": "75.8",
+        "HPI": "25.1",
+        "Wellbeing": "5.2"
+    },
+    {
+        "Country": "Portugal",
+        "Region": "Europe",
+        "Life": "80.3",
+        "HPI": "24.8",
+        "Wellbeing": "5"
+    },
+    {
+        "Country": "South Korea",
+        "Region": "Asia Pacific",
+        "Life": "81.3",
+        "HPI": "24.8",
+        "Wellbeing": "6"
+    },
+    {
+        "Country": "Myanmar",
+        "Region": "Asia Pacific",
+        "Life": "65.5",
+        "HPI": "24.7",
+        "Wellbeing": "4.4"
+    },
+    {
+        "Country": "Slovenia",
+        "Region": "Post-communist",
+        "Life": "80",
+        "HPI": "24.6",
+        "Wellbeing": "6.1"
+    },
+    {
+        "Country": "Kenya",
+        "Region": "Sub Saharan Africa",
+        "Life": "60.3",
+        "HPI": "24.2",
+        "Wellbeing": "4.5"
+    },
+    {
+        "Country": "Iran",
+        "Region": "Middle East and North Africa",
+        "Life": "74.8",
+        "HPI": "24",
+        "Wellbeing": "4.6"
+    },
+    {
+        "Country": "Canada",
+        "Region": "Americas",
+        "Life": "81.7",
+        "HPI": "23.9",
+        "Wellbeing": "7.4"
+    },
+    {
+        "Country": "Egypt",
+        "Region": "Middle East and North Africa",
+        "Life": "70.7",
+        "HPI": "23.8",
+        "Wellbeing": "4.2"
+    },
+    {
+        "Country": "Belgium",
+        "Region": "Europe",
+        "Life": "80.4",
+        "HPI": "23.7",
+        "Wellbeing": "6.9"
+    },
+    {
+        "Country": "Mozambique",
+        "Region": "Sub Saharan Africa",
+        "Life": "54.3",
+        "HPI": "23.7",
+        "Wellbeing": "5"
+    },
+    {
+        "Country": "Greece",
+        "Region": "Europe",
+        "Life": "80.5",
+        "HPI": "23.6",
+        "Wellbeing": "5.1"
+    },
+    {
+        "Country": "Macedonia",
+        "Region": "Post-communist",
+        "Life": "75.1",
+        "HPI": "23.4",
+        "Wellbeing": "4.6"
+    },
+    {
+        "Country": "Paraguay",
+        "Region": "Americas",
+        "Life": "72.6",
+        "HPI": "23.3",
+        "Wellbeing": "5.8"
+    },
+    {
+        "Country": "Bolivia",
+        "Region": "Americas",
+        "Life": "67.5",
+        "HPI": "23.3",
+        "Wellbeing": "6"
+    },
+    {
+        "Country": "Comoros",
+        "Region": "Sub Saharan Africa",
+        "Life": "62.6",
+        "HPI": "23.1",
+        "Wellbeing": "4"
+    },
+    {
+        "Country": "Yemen",
+        "Region": "Middle East and North Africa",
+        "Life": "63.3",
+        "HPI": "22.8",
+        "Wellbeing": "4.1"
+    },
+    {
+        "Country": "Nigeria",
+        "Region": "Sub Saharan Africa",
+        "Life": "52.1",
+        "HPI": "22.2",
+        "Wellbeing": "5.5"
+    },
+    {
+        "Country": "Liberia",
+        "Region": "Sub Saharan Africa",
+        "Life": "60.2",
+        "HPI": "22.2",
+        "Wellbeing": "4.4"
+    },
+    {
+        "Country": "Tanzania",
+        "Region": "Sub Saharan Africa",
+        "Life": "63.5",
+        "HPI": "22.1",
+        "Wellbeing": "4"
+    },
+    {
+        "Country": "Malawi",
+        "Region": "Sub Saharan Africa",
+        "Life": "60.1",
+        "HPI": "22.1",
+        "Wellbeing": "4.3"
+    },
+    {
+        "Country": "Zimbabwe",
+        "Region": "Sub Saharan Africa",
+        "Life": "53.7",
+        "HPI": "22.1",
+        "Wellbeing": "5"
+    },
+    {
+        "Country": "Lebanon",
+        "Region": "Middle East and North Africa",
+        "Life": "78.8",
+        "HPI": "21.9",
+        "Wellbeing": "4.6"
+    },
+    {
+        "Country": "Senegal",
+        "Region": "Sub Saharan Africa",
+        "Life": "65.4",
+        "HPI": "21.9",
+        "Wellbeing": "3.7"
+    },
+    {
+        "Country": "Belarus",
+        "Region": "Post-communist",
+        "Life": "70.9",
+        "HPI": "21.7",
+        "Wellbeing": "5.7"
+    },
+    {
+        "Country": "Namibia",
+        "Region": "Sub Saharan Africa",
+        "Life": "64",
+        "HPI": "21.6",
+        "Wellbeing": "4.7"
+    },
+    {
+        "Country": "Ghana",
+        "Region": "Sub Saharan Africa",
+        "Life": "61",
+        "HPI": "21.4",
+        "Wellbeing": "5.1"
+    },
+    {
+        "Country": "Australia",
+        "Region": "Asia Pacific",
+        "Life": "82.1",
+        "HPI": "21.2",
+        "Wellbeing": "7.2"
+    },
+    {
+        "Country": "Oman",
+        "Region": "Middle East and North Africa",
+        "Life": "76.3",
+        "HPI": "21.1",
+        "Wellbeing": "6.9"
+    },
+    {
+        "Country": "Lithuania",
+        "Region": "Post-communist",
+        "Life": "72.8",
+        "HPI": "21",
+        "Wellbeing": "5.8"
+    },
+    {
+        "Country": "United States of America",
+        "Region": "Americas",
+        "Life": "78.8",
+        "HPI": "20.7",
+        "Wellbeing": "7"
+    },
+    {
+        "Country": "Bulgaria",
+        "Region": "Post-communist",
+        "Life": "73.9",
+        "HPI": "20.4",
+        "Wellbeing": "4.2"
+    },
+    {
+        "Country": "Afghanistan",
+        "Region": "Middle East and North Africa",
+        "Life": "59.7",
+        "HPI": "20.2",
+        "Wellbeing": "3.8"
+    },
+    {
+        "Country": "Rwanda",
+        "Region": "Sub Saharan Africa",
+        "Life": "63.1",
+        "HPI": "19.6",
+        "Wellbeing": "3.3"
+    },
+    {
+        "Country": "Uganda",
+        "Region": "Sub Saharan Africa",
+        "Life": "57.1",
+        "HPI": "19.4",
+        "Wellbeing": "4.3"
+    },
+    {
+        "Country": "Syria",
+        "Region": "Middle East and North Africa",
+        "Life": "70.4",
+        "HPI": "19.1",
+        "Wellbeing": "3.2"
+    },
+    {
+        "Country": "Kazakhstan",
+        "Region": "Post-communist",
+        "Life": "68.6",
+        "HPI": "19.1",
+        "Wellbeing": "5.8"
+    },
+    {
+        "Country": "Republic of Congo",
+        "Region": "Sub Saharan Africa",
+        "Life": "61",
+        "HPI": "18.8",
+        "Wellbeing": "3.9"
+    },
+    {
+        "Country": "Russia",
+        "Region": "Post-communist",
+        "Life": "69.5",
+        "HPI": "18.7",
+        "Wellbeing": "5.6"
+    },
+    {
+        "Country": "Mauritania",
+        "Region": "Sub Saharan Africa",
+        "Life": "62.6",
+        "HPI": "18",
+        "Wellbeing": "4.7"
+    },
+    {
+        "Country": "Estonia",
+        "Region": "Post-communist",
+        "Life": "76.2",
+        "HPI": "17.9",
+        "Wellbeing": "5.4"
+    },
+    {
+        "Country": "Burkina Faso",
+        "Region": "Sub Saharan Africa",
+        "Life": "58",
+        "HPI": "17.9",
+        "Wellbeing": "4"
+    },
+    {
+        "Country": "Gabon",
+        "Region": "Sub Saharan Africa",
+        "Life": "63.3",
+        "HPI": "17.5",
+        "Wellbeing": "4"
+    },
+    {
+        "Country": "Latvia",
+        "Region": "Post-communist",
+        "Life": "73.6",
+        "HPI": "17.1",
+        "Wellbeing": "5.1"
+    },
+    {
+        "Country": "Niger",
+        "Region": "Sub Saharan Africa",
+        "Life": "60",
+        "HPI": "16.8",
+        "Wellbeing": "3.8"
+    },
+    {
+        "Country": "Hong Kong",
+        "Region": "Asia Pacific",
+        "Life": "83.6",
+        "HPI": "16.8",
+        "Wellbeing": "5.5"
+    },
+    {
+        "Country": "Cameroon",
+        "Region": "Sub Saharan Africa",
+        "Life": "54.6",
+        "HPI": "16.7",
+        "Wellbeing": "4.2"
+    },
+    {
+        "Country": "Lesotho",
+        "Region": "Sub Saharan Africa",
+        "Life": "48.9",
+        "HPI": "16.7",
+        "Wellbeing": "4.9"
+    },
+    {
+        "Country": "Botswana",
+        "Region": "Sub Saharan Africa",
+        "Life": "64.2",
+        "HPI": "16.6",
+        "Wellbeing": "4.8"
+    },
+    {
+        "Country": "Djibouti",
+        "Region": "Sub Saharan Africa",
+        "Life": "61.3",
+        "HPI": "16.4",
+        "Wellbeing": "4.4"
+    },
+    {
+        "Country": "South Africa",
+        "Region": "Sub Saharan Africa",
+        "Life": "56.3",
+        "HPI": "15.9",
+        "Wellbeing": "5.1"
+    },
+    {
+        "Country": "Guinea",
+        "Region": "Sub Saharan Africa",
+        "Life": "57.7",
+        "HPI": "15.9",
+        "Wellbeing": "3.7"
+    },
+    {
+        "Country": "Trinidad and Tobago",
+        "Region": "Americas",
+        "Life": "70.1",
+        "HPI": "15.7",
+        "Wellbeing": "6.4"
+    },
+    {
+        "Country": "Burundi",
+        "Region": "Sub Saharan Africa",
+        "Life": "55.8",
+        "HPI": "15.6",
+        "Wellbeing": "3.4"
+    },
+    {
+        "Country": "Swaziland",
+        "Region": "Sub Saharan Africa",
+        "Life": "48.9",
+        "HPI": "15.5",
+        "Wellbeing": "4.9"
+    },
+    {
+        "Country": "Sierra Leone",
+        "Region": "Sub Saharan Africa",
+        "Life": "49.8",
+        "HPI": "15.3",
+        "Wellbeing": "4.5"
+    },
+    {
+        "Country": "Turkmenistan",
+        "Region": "Post-communist",
+        "Life": "65.3",
+        "HPI": "14.6",
+        "Wellbeing": "5.5"
+    },
+    {
+        "Country": "Cote d'Ivoire",
+        "Region": "Sub Saharan Africa",
+        "Life": "50.8",
+        "HPI": "14.4",
+        "Wellbeing": "3.8"
+    },
+    {
+        "Country": "Mongolia",
+        "Region": "Asia Pacific",
+        "Life": "68.6",
+        "HPI": "14.3",
+        "Wellbeing": "4.9"
+    },
+    {
+        "Country": "Benin",
+        "Region": "Sub Saharan Africa",
+        "Life": "59.2",
+        "HPI": "13.4",
+        "Wellbeing": "3.2"
+    },
+    {
+        "Country": "Togo",
+        "Region": "Sub Saharan Africa",
+        "Life": "58.6",
+        "HPI": "13.2",
+        "Wellbeing": "2.9"
+    },
+    {
+        "Country": "Luxembourg",
+        "Region": "Europe",
+        "Life": "81.1",
+        "HPI": "13.2",
+        "Wellbeing": "7"
+    },
+    {
+        "Country": "Chad",
+        "Region": "Sub Saharan Africa",
+        "Life": "50.8",
+        "HPI": "12.8",
+        "Wellbeing": "4"
+    }
+]
