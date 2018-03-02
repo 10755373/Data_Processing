@@ -1,7 +1,7 @@
 import csv
 import json
 
-csv_file = open("data_line.csv", 'r')
+csv_file = open("hpi-data-2016.csv", 'r')
 json_file = open("convertCSV2JSON.json", 'w')
 
 data = []
