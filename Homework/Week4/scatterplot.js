@@ -122,7 +122,7 @@ function load() {
       				})
       				.on('mouseout', function(d, i) {
         				tip.transition()
-        				.delay(300)
+        				.delay(150)
         				.style('display', 'none');
       				});
 	
