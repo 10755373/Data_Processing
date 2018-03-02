@@ -114,17 +114,17 @@ function load() {
 		 		.attr(circle_attr)
 		 		.style("fill", function(d) { return coloring(d.Region, region_colors); })
 		 		.on('mouseover', function(d, i) {
-        			tip.transition().duration(0);
-        			tip.style('top', y(d.Life) - 5 + 'px');
-       				tip.style('left', x(d.HPI) + 15 + 'px');
-        			tip.style('display', 'block');
-        			tip.text(d.Country);      			
-      			})
-      			.on('mouseout', function(d, i) {
-        			tip.transition()
-        			.delay(300)
-        			.style('display', 'none');
-      			});
+        				tip.transition().duration(0);
+        				tip.style('top', y(d.Life) - 5 + 'px');
+       					tip.style('left', x(d.HPI) + 15 + 'px');
+        				tip.style('display', 'block');
+        				tip.text(d.Country);      			
+      				})
+      				.on('mouseout', function(d, i) {
+        				tip.transition()
+        				.delay(300)
+        				.style('display', 'none');
+      				});
 	
 		// create rectangles, circles and text for the legend
 		var rect_width = 10;
