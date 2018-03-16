@@ -1,3 +1,7 @@
+// Druk op een land v/d scatterplot voor toevoegen
+// Druk op de bars van een land om ze te verwijderen
+
+
 function load() {
 
 	margin = {top: 20, right: 40, bottom: 45, left: 40}
