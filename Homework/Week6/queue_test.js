@@ -260,43 +260,6 @@ function load() {
 	
 		// create rectangles, circles and text for the legend
 		var rect_width = 10;
-	 	
-		svg_scat.append("g")
-			.selectAll("rect")
-			.data(region_colors)
-			.enter().append("rect")
-				.attr("class", "legend_rect_box")
-				.attr("width", rect_width)
-				.attr("height", rect_width)
-				.attr("x", total_width - margin_scat.right / 7)
-				.attr("y", function(d, i) {
-					return i*20 + 27;
-				})
-				.style("fill", function(d, i) { 
-					return region_colors[i]["Region"][Object.keys(region_colors[i]["Region"])]; 
-		
-				});		
-		
-		svg_scat.append("g")
-			.selectAll("text")
-			.data(region_colors)
-			.enter().append("text")
-				.attr("class", "legend_text_box")
-				.text(function(d, i) {
-			  		return Object.keys(d.Region);
-				})
-				.attr("x", total_width - margin_scat.left)	
-				.attr("y", function(d, i) {
-					return i*20 + margin.top;
-				})
-				.attr("dy", "1em"); 
-	
-		svg_scat.append("g").append("text")
-			.attr("class", "legend_text_box")	
-			.attr("x", width + margin.left)
-			.attr("y", margin.top / 1.5)
-			.text("Regions");
-
 
 		var legend_circle_data = [3, 6, 7.25];
 		svg_scat.append("g")
