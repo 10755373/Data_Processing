@@ -47,11 +47,6 @@ function load() {
 	col.append("h2")
 		.text("Linked maps");
 
-	col.append("h3")
-		.text("Enrikos Iossifidis 10805672")
-		.append("h3")
-			.text("");
-
 	var gen_description = col_post_1.append("g")
 		.attr("class", "gen_description");
 
@@ -456,6 +451,10 @@ function load() {
 					});
 		}
 	});
-
+	
+	col.append("h3")
+	.text("Enrikos Iossifidis 10805672")
+	.append("h3")
+		.text("");
 }
 	
