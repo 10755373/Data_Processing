@@ -120,12 +120,12 @@ function load() {
 	// QUEUE DATA
  	var q = d3.queue();
  	
-	q.defer(d3.json, "https://github.com/EnrikosIossifidis/Data_Processing/blob/master/Homework/Week6/data/oecd.json");
-	q.defer(d3.json, "https://github.com/EnrikosIossifidis/Data_Processing/blob/master/Homework/Week6/data/hpi-index.json");
-	q.defer(d3.text, "https://github.com/EnrikosIossifidis/Data_Processing/blob/master/Homework/Week6/scripts/data_description.txt");
-	q.defer(d3.text, "https://github.com/EnrikosIossifidis/Data_Processing/blob/master/Homework/Week6/scripts/bar_descr.txt");
-	q.defer(d3.text, "https://github.com/EnrikosIossifidis/Data_Processing/blob/master/Homework/Week6/scripts/scat_descr.txt");
-	q.defer(d3.text, "https://github.com/EnrikosIossifidis/Data_Processing/blob/master/Homework/Week6/scripts/goal_descr.txt");
+	q.defer(d3.json, "https://enrikosiossifidis.github.io/Data_Processing/Homework/Week6/data/oecd.json");
+	q.defer(d3.json, "https://enrikosiossifidis.github.io/Data_Processing/Homework/Week6/data/hpi-index.json");
+	q.defer(d3.text, "https://enrikosiossifidis.github.io/Data_Processing/Homework/Week6/scripts/data_description.txt");
+	q.defer(d3.text, "https://enrikosiossifidis.github.io/Data_Processing/Homework/Week6/scripts/bar_descr.txt");
+	q.defer(d3.text, "https://enrikosiossifidis.github.io/Data_Processing/Homework/Week6/scripts/scat_descr.txt");
+	q.defer(d3.text, "https://enrikosiossifidis.github.io/Data_Processing/Homework/Week6/scripts/goal_descr.txt");
 	q.await(function(error, data1, data2, data_description, bar_descr, scat_descr, goal_descr) {	
 
 		if (error) throw error;
