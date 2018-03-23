@@ -53,7 +53,11 @@ function load() {
 	col.append("h5")
 		.text(" 1. Click on a country-dot or select a country to add a grouped bar. 2. You can delete a grouped bar by clicking on it. 3. Enjoy:)");
 
-
+	col_ex.append("h3")
+	.text("Enrikos Iossifidis 10805672")
+	.append("h3")
+		.text("");
+	
 	// GROUPED BAR ELEMENTS
 	// create axis and elements for stack bar
 	var stack_container	= col.append("div")
@@ -452,10 +456,5 @@ function load() {
 					});
 		}
 	});
-	
-	col.append("h3")
-	.text("Enrikos Iossifidis 10805672")
-	.append("h3")
-		.text("");
 }
 	
