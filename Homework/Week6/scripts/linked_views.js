@@ -296,8 +296,9 @@ function load() {
 	  			})
 				tip2.show();
 			})
-      		.on('mouseout', tip2.hide());
-      	
+      		.on('mouseout', function() {
+				tip2.hide();
+		})
 		}
 
 		// function is called by "select all button"
