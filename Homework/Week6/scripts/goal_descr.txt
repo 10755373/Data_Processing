@@ -1,0 +1,7 @@
+The power of linked views, in my opinion, is trying to show data where different elements
+influence each other. That is why the choices above where made. You can't easily express
+happiness in just one number, bar or any other graph. People who live isolated have a greater
+chance of dying earlier and (not all) are less happy, even your level of education 
+has influence on these elements. The value of the linked views is by selecting interesting 
+couples in the scatterplot or button-group and comparing them on different aspects of happiness and life 
+(but still keeping it informative).

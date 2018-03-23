@@ -1,0 +1,1 @@
+The grouped bar chart shows the percentage of the availibility of a social network and the percentage of people who have had education. The scatterplot shows on the x axis the Happy Planet Index (HPI) and on the y axis the life expectancy of each Country

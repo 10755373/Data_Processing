@@ -1,0 +1,8 @@
+Quality of support network:     
+It's a measure of perceived social network support. The indicator is based on the question: 
+If you were in trouble, do you have relatives or friends you can count on to help you whenever you need them, or not?    
+The indicator considers the respondents who respond positively.
+
+Educational attainment:
+Educational attainment considers the number of adults aged 25 to 64 holding at least an upper secondary degree 
+over the population of the same age, as defined by the OECD-ISCED classification.

@@ -1,0 +1,6 @@
+Life expectancy:
+2012 data prepared by the Population Division of the Department of Economic and Social Affairs of the United Nations.
+
+HPI Index:
+Index based on Wellbeing, Inequality of oucomes, Life Expectancy and the Ecological footprint per person. 
+Luxembourg is an outlier because of a high ecological footprint. 
