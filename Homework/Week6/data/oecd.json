@@ -1,0 +1,92 @@
+[
+    {
+        "Country": "Austria",
+        "Support_network": "92",
+        "Education_att": "95"
+    },
+    {
+        "Country": "Belgium",
+        "Support_network": "92",
+        "Education_att": "94"
+    },
+    {
+        "Country": "Denmark",
+        "Support_network": "95",
+        "Education_att": "96"
+    },
+    {
+        "Country": "Finland",
+        "Support_network": "95",
+        "Education_att": "98"
+    },
+    {
+        "Country": "France",
+        "Support_network": "88",
+        "Education_att": "94"
+    },
+    {
+        "Country": "Germany",
+        "Support_network": "92",
+        "Education_att": "94"
+    },
+    {
+        "Country": "Greece",
+        "Support_network": "82",
+        "Education_att": "91"
+    },
+    {
+        "Country": "Iceland",
+        "Support_network": "98",
+        "Education_att": "100"
+    },
+    {
+        "Country": "Ireland",
+        "Support_network": "96",
+        "Education_att": "96"
+    },
+    {
+        "Country": "Italy",
+        "Support_network": "91",
+        "Education_att": "94"
+    },
+    {
+        "Country": "Luxembourg",
+        "Support_network": "92",
+        "Education_att": "93"
+    },
+    {
+        "Country": "Netherlands",
+        "Support_network": "90",
+        "Education_att": "92"
+    },
+    {
+        "Country": "Norway",
+        "Support_network": "94",
+        "Education_att": "96"
+    },
+    {
+        "Country": "Portugal",
+        "Support_network": "87",
+        "Education_att": "94"
+    },
+    {
+        "Country": "Spain",
+        "Support_network": "95",
+        "Education_att": "94"
+    },
+    {
+        "Country": "Sweden",
+        "Support_network": "92",
+        "Education_att": "95"
+    },
+    {
+        "Country": "Switzerland",
+        "Support_network": "94",
+        "Education_att": "94"
+    },
+    {
+        "Country": "United Kingdom",
+        "Support_network": "93",
+        "Education_att": "92"
+    }
+]
