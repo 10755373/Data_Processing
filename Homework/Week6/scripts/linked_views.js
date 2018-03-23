@@ -8,13 +8,15 @@ function load() {
 
 	// GENERAL STUFF
 	// set standard numbers
-	margin = {top: 20, right: 40, bottom: 45, left: 40}
-	margin_scat = {right: 100}
+	margin = {top: 20, right: 40, bottom: 45, left: 40, bars: 5}
+	margin_scat = {right: 100, scat: 5, legend_text: 23, legend_dot: 20}
 	var total_width = 900;
 	var total_height = 320;
 	var height = total_height - margin.top - margin.right;
 	var width = total_width - margin.right - margin.left;
-
+	var description_factor = 1.3;
+	var scat_factor = 1.6;
+	
 	// create tip
 	var tip2 = d3.tip()
 	  .attr('class', 'd3-tip')
@@ -137,7 +139,7 @@ function load() {
 
 		gen_description.append("text")
 	        .attr("y", 0)
-	        .attr("x", -margin.right / 1.3)
+	        .attr("x", -margin.right / description_factor)
 	        .attr("dy", ".1em")		
 			.text(data_description);
 
@@ -146,7 +148,7 @@ function load() {
 
 		gen_description.append("text")
 	        .attr("y", 0)
-	        .attr("x", -margin.right / 1.3)
+	        .attr("x", -margin.right / description_factor)
 	        .attr("dy", ".1em")		
 			.text(bar_descr);
 
@@ -155,7 +157,7 @@ function load() {
 
 		gen_description.append("text")
 	        .attr("y", 0)
-	        .attr("x", -margin.right / 1.3)
+	        .attr("x", -margin.right / description_factor)
 	        .attr("dy", ".1em")		
 			.text(scat_descr);
 
@@ -164,7 +166,7 @@ function load() {
 
 		gen_description.append("text")
 	        .attr("y", 0)
-	        .attr("x", -margin.right / 1.3)
+	        .attr("x", -margin.right / description_factor)
 	        .attr("dy", ".1em")		
 			.text(goal_descr);
 
@@ -231,7 +233,7 @@ function load() {
 
 		d3.select(".stacks_g").append("text")
 	        .attr("y", -margin.top)
-	        .attr("x", -margin.right / 1.3)
+	        .attr("x", -margin.right / description_factor)
 	        .attr("dy", "1em")
 	        .text("(%)");
 
@@ -287,7 +289,7 @@ function load() {
 				.transition().duration(200).delay(1000).style('opacity','1')
 				.attr("width", x_bars.rangeBand())
 				.attr("height", function(d) { return height - y_left(d.value)})
-				.attr("x", function(d) { return x_bars(d.name) - 5; })
+				.attr("x", function(d) { return x_bars(d.name) - margin.bars; })
 				.attr("y", function(d) { return y_left(d.value); })
 				.style("fill", function(d) { return color(d.name)})
 
@@ -360,7 +362,7 @@ function load() {
 		
 		// set circle attribute
 		var circle_attr = {
-			cx: function(d) { return x(d.HPI) + (margin.top * 1.8); },
+			cx: function(d) { return x(d.HPI) + (margin.top * scat_factor); },
 			cy: function(d) { return y(d.Life); },
 			r: function(d) { return r(d.Wellbeing); }
 		};
@@ -394,8 +396,8 @@ function load() {
 				.attr("transform", "translate(" + margin.left + "," + margin.top+ ")")
 				.append("text")
 					.attr("class", "label_y")
-					.attr("x", -5)
-					.attr("y", -5)
+					.attr("x", -margin_scat.scat)
+					.attr("y", -margin_scat.scat)
 					.text("Life Expectancy");
 		}
 
@@ -432,7 +434,7 @@ function load() {
 					.attr("class", "dot")
 					.attr("cx", total_width + margin.left)
 					.attr("cy", function(d, i) {
-						return i*20 + margin.top;
+						return i*margin_scat.legend_dot + margin.top;
 					})
 					.attr("r", function(d) {
 						return d;
@@ -445,9 +447,9 @@ function load() {
 				.data(legend_circle_texts)
 				.enter().append("text")
 					.attr("class", "legend_text_box")
-					.attr("x", total_width + (margin.right * 1.5))
+					.attr("x", total_width + (margin.right * scat_factor))
 					.attr("y", function(d, i) {
-						return i*23 + margin.top;
+						return i*margin_scat.legend_text + margin.top;
 					})
 					.text(function(d, i) {
 						return d;
