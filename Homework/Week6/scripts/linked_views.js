@@ -15,7 +15,7 @@ function load() {
 	var height = total_height - margin.top - margin.right;
 	var width = total_width - margin.right - margin.left;
 	var description_factor = 1.3;
-	var scat_factor = 1.6;
+	var scat_factor = 1.75;
 	
 	// create tip
 	var tip2 = d3.tip()
