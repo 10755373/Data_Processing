@@ -56,7 +56,7 @@ function load() {
 		.attr("class", "gen_description");
 
 	col.append("h5")
-		.text(" 1. Click on a country-dot to add a grouped bar. 2. You can delete a grouped bar by clicking on it. 3. Enjoy:)");
+		.text(" 1. Click on a country-dot or select a country to add a grouped bar. 2. You can delete a grouped bar by clicking on it. 3. Enjoy:)");
 
 
 	// GROUPED BAR ELEMENTS
